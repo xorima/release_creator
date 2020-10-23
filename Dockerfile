@@ -10,4 +10,4 @@ RUN bundle install --without test
 COPY ./lib .
 ENV APP_ENV=production
 
-CMD ["ruby", "./ReleaseCreator.rb", "-o", "0.0.0.0"]
+CMD ["ruby", "./releasecreator.rb", "-o", "0.0.0.0"]

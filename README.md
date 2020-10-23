@@ -1,6 +1,6 @@
-# Release Label Checker
+# Release Creator
 
-This is a simple webapp which can check if a `Release: Major|Minor|Patch` label is on the pull request
+This is a simple webapp which will create a release based on the label of `Release: Major|Minor|Patch` on the merged pull request
 
 ## Configuration
 
@@ -11,8 +11,7 @@ This app uses the following environments variables:
 | Name | Required | Description |
 | ---| --- | ---|
 | GITHUB_TOKEN| Yes| Token to access the github api, this will be used to write the status to the pr |
-| SECRET_TOKEN | No| If supplied it will do a HMAC check against the incomming request |
-| COMMENTS_ENABLED| No | If supplied it will comment what type of bump on the pr |
+| SECRET_TOKEN | Yes| If supplied it will do a HMAC check against the incomming request |
 
 ### Webhook
 
