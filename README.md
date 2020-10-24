@@ -10,7 +10,7 @@ This app uses the following environments variables:
 
 | Name | Required | Description |
 | ---| --- | ---|
-| GITHUB_TOKEN| Yes| Token to access the github api, this will be used to write the status to the pr |
+| GITHUB_TOKEN| Yes| Token to access the github api, create the release and update the changelog on master |
 | SECRET_TOKEN | Yes| If supplied it will do a HMAC check against the incomming request |
 
 ### Webhook
