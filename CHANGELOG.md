@@ -2,6 +2,10 @@
 
 This file is used to list changes made in releasecreator.
 
+## Unreleased
+
+- Validate the HMAC signature
+
 ## 1.0.1 - *2020-10-24*
 
 - Fix documentation to specify use of github token
