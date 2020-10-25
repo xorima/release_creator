@@ -2,7 +2,7 @@
 
 This file is used to list changes made in releasecreator.
 
-## Unreleased
+## 1.2.0 - *2020-10-25*
 
 - Fixed an issue where the parser would take any `##` combination
   - it will now look for a new line before it
