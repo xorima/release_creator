@@ -4,7 +4,9 @@ This file is used to list changes made in releasecreator.
 
 ## Unreleased
 
-- Fixed an issue where the parser would take any `##` combination, it will now look for a new line before it
+- Fixed an issue where the parser would take any `##` combination
+  - it will now look for a new line before it
+  - It must end with a version number of d+.d+.d+
 
 ## 1.1.0 - *2020-10-25*
 
