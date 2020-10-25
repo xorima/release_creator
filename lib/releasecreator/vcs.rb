@@ -25,7 +25,7 @@ module ReleaseCreator
 
     def unreleased_changelog_entry
       content = get_file_contents(@changelog_name)['content']
-      result = /##\s+(Unreleased)([\s\S]*?)##/im.match(content)
+      result = /##\s+(Unreleased)([\s\S]*?)(\n##\s+\d+\.\d+\.\d+|\Z)/im.match(content)
       return result[2].strip if result
 
       nil
