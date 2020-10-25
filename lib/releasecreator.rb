@@ -11,7 +11,7 @@ get '/' do
 end
 
 post '/handler' do
-  # return halt 500, "Signatures didn't match!" unless validate_request(request)
+  return halt 500, "Signatures didn't match!" unless validate_request(request)
 
   payload = JSON.parse(params[:payload])
   case request.env['HTTP_X_GITHUB_EVENT']
