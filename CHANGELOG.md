@@ -4,6 +4,8 @@ This file is used to list changes made in releasecreator.
 
 ## Unreleased
 
+- Fixed bug with dockerhub push due to set-env deprecation
+
 ## 1.2.0 - *2020-10-25*
 
 - Fixed an issue where the parser would take any `##` combination
